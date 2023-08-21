@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+    <nav>
+        <!-- menu de navegacion -->
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="paginas/discografia.html">Discografia</a></li>
+        <li><a href="paginas/historia.html">Historia</a></li>
+        <li><a href="paginas/integrantes.html">Integrantes</a></li>
+        <li><a href="paginas/tour-2023.html">Tour 2023</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Skillet</h1>
+</main>
+<section>
+    <img class="imagen-1" src="multimedia/SKILLET-1.webp">
+    <h2  id="intro-1">Hablemos de Skillet</h2>
+    <article>
+        <p id="intro-text">Skillet es una banda formada en el año 1996 de rock y metal cristiano, conformada por John Cooper, Korey Cooper,Jen Ledger y Seth Morrison.</p>
+        <p id="intro-text-2">Cuentan con 11 albumes actualmente y una gran variedad de giras a lo largo de los años.</p>
+    </article>
+</section>
+<article>
+    <form>
+        <h3 id="formtext">Formulario para inscribirte como fan de la banda</h3>
+        <label for="nombre" id="name">Escribi tu nombre</label>
+        <input type="text" class="Formulario " id="nombre" name="nombre" required>
+        
+        <label for="mail" id="email">Ingresa tu mail</label>
+        <input type="mail" class="Formulario" id="mail" name="mail" required>
+        
+        <label for="contrasena" id="password">Ingresa tu contraseña</label>
+        <input type="password" class="Formulario" id="contrasena" name="contrasena" required>
+
+        <label for="pais" id="origen">Ingresa tu pais de origen</label>
+        <select name="pais" id="pais" required>
+            <option value="ARG">Argentina</option>
+            <option value="URU">Uruguay</option>
+            <option value="BR">Brasil</option>
+            <option value="USA">Estados Unidos</option>
+            <option value="ENG">Inglaterra</option>
+        </select>
+
+        <label for="sex" id="genero">Ingresa tu sexo</label>
+        <label for="sex" id="formulario-2-1">
+        <input type="radio" name="sex" >Femenino
+        </label>
+        <label for="sex" id="formulario-2-2">
+        <input type="radio" name="sex">Masculino
+        </label>
+        <label for="sex" id="formulario-2-3">
+        <input type="radio" name="sex">No Binario
+        </label>
+        <label for="sex" id="formulario-2-4">
+        <input type="radio" name="sex">Prefiero No Decirlo
+        </label>
+        <input type="submit" class="Formulario" id="button-1" value="Volverse fan de la banda">
+        <input type="reset" class="Formulario" id="button-2" value="Reiniciar cuestionario">
+    </form>
+</article>
+<footer>
+    Datos de contacto:
+    telefono: 0800-111-1111
+    mail: anon@gmail.com
+    Redes: 
+    <a href="https://www.instagram.com/skilletmusic/"><img src="multimedia/instagram.png" alt="instagram" id="ig"></a>
+</footer>
+</body>
+</html>

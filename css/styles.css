@@ -1,0 +1,303 @@
+body{
+    background-color: black;
+    background: linear-gradient(65deg, green, black)
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px; 
+}
+.imagen-1{
+    width: 600px;
+    height: 450px;
+}
+.texto-inicial{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#intro-1{
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    bottom: 490px; left: 610px;
+}
+#intro-text{
+     color: white;
+    position: absolute;
+    bottom: 450px; left: 610px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#intro-text-2{
+     color: white;
+    position: absolute;
+    bottom: 430px; left: 610px;
+    font-size: large;
+}
+#formtext{
+     color: white;
+    position: absolute;
+    left: 643px; top: 200px;
+}
+#ig{
+    width: 25px;
+    height: 25px;
+}
+.Formulario{
+     color: white;
+    display: block;
+}
+#name{
+     color: white;
+    position: absolute;
+    left: 643px; top: 260px;
+}
+#nombre{
+     color: black;
+    position: absolute;
+    left: 643px; top: 275px;
+}
+#email{
+     color: white;
+    position: absolute;
+    left: 643px; top: 305px;
+}
+#mail{
+     color: black;
+    position: absolute;
+    left: 643px; top: 320px;
+}
+#password{
+    color: white;
+    position: absolute;
+    left: 643px; top: 350px;
+}
+#contrasena{
+    color: black;
+    position: absolute;
+    left: 643px; top: 365px;
+}
+#origen{
+    color: white;
+    position: absolute;
+    left: 643px; top: 395px;
+}
+#pais{
+    color: black;
+    position: absolute;
+    left: 643px; top: 410px;
+}
+#genero{
+    color: white;
+    position: absolute;
+    left: 643px; top: 440px;
+}
+#formulario-2-1{
+     color: white;
+    display: inline-block;
+    position: absolute;
+    left: 643px; top: 455px;
+}
+#formulario-2-2{
+     color: white;
+    display: inline-block;
+    position: absolute;
+    left: 743px; top: 455px;
+}
+#formulario-2-3{
+     color: white;
+    display: inline-block;
+    position: absolute;
+    left: 843px; top: 455px;
+}#formulario-2-4{
+     color: white;
+    display: inline-block;
+    position: absolute;
+    left: 943px; top: 455px;
+}
+#button-1{
+    color: black;
+    position: absolute;
+    left: 643px; top: 485px;
+}
+#button-2{
+    color: black;
+    position: absolute;
+    left: 643px; top: 525px;
+}
+/* Pagina Discografia */
+.disco-data{
+    color: white;
+}
+#disco-1{
+    width: 225px;
+    height: 225px;
+}
+#disco-2{
+    width: 225px;
+    height: 225px;
+}
+#disco-3{
+    width: 225px;
+    height: 225px;
+}
+#disco-4{
+    width: 225px;
+    height: 225px;
+}
+#disco-5{
+    width: 225px;
+    height: 225px;
+}
+#disco-6{
+    width: 225px;
+    height: 225px;
+}
+#disco-7{
+    width: 225px;
+height: 225px;
+}
+#disco-8{
+    width: 225px;
+height: 225px;
+}
+#disco-9{
+    width: 225px;
+height: 225px;
+}
+#disco-10{
+    width: 225px;
+height: 225px;
+}
+#disco-11{
+    width: 225px;
+height: 225px;
+}
+#div-1{
+    display: block;
+    padding-right: 1050px;
+}
+#div-2{
+    position: absolute;
+    top: 162px; left: 350px;
+    display: block;
+    padding-right: 1050px;
+}
+#div-3{
+    position: absolute;
+    top: 162px; left: 700px;
+    padding-right: 1000px;
+}
+#div-4{
+    position: absolute;
+    top: 162px; left: 1050px;
+    display: block;
+    padding-right: 1050px;
+}
+#div-5{
+    position: absolute;
+    top: 1000px; left: 0px;
+    padding-right: 1050px;
+}
+#div-6{
+    position: absolute;
+    top: 1000px; left: 350px;
+    padding-right: 1050px;
+}
+#div-7{
+    position: absolute;
+    top: 1000px; left: 700px;
+    padding-right: 1050px;
+}
+#div-8{
+    position: absolute;
+    top: 1000px; left: 1050px;
+    padding-right: 1050px;
+}
+#div-9{
+    position: absolute;
+    top: 1650px; left: 0px;
+    padding-right: 1050px;
+}
+#div-10{
+    position: absolute;
+    top: 1650px; left: 525px;
+    padding-right: 1050px;
+}
+#div-11{
+    position: absolute;
+    top: 1650px; left: 1050px;
+    padding-right: 1050px;
+}
+/* Pagina historia */
+h1{
+    color: white;
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px; 
+    border-width: 10px;
+    border-color: black;
+}
+#img-1{
+    width: 500px;
+    height: 500px;
+}
+#inicio-texto{
+    position: absolute;
+    left: 410px;
+    top: 90px;
+    color: white;
+}
+#texto-inicial{
+    position: absolute;
+    left: 410px;
+    top: 115px;
+    color: white;
+}
+#texto-medio{
+    position: absolute;
+    left: 410px;
+    top: 175px;
+    color: white;
+}
+#texto-2000{
+    position: absolute;
+    left: 410px; 
+    top: 250px;
+    color: white;
+}
+#texto-2000-2{
+    position: absolute;
+    left: 410px; 
+    top: 275px;
+    color: white;
+}
+#img-2{
+    width: 400px;
+    height: 400px;
+}
+#texto-2010{
+    position: absolute;
+    left: 510px; top: 500px;
+    color: white;
+}
+#texto-2010-2{
+    position: absolute;
+    left: 510px; top: 525px;
+    color: white;
+}
+#intro-2020{
+    position: absolute;
+    left: 510px; top: 900px;
+    color: white;
+}
+#texto-2020-2{
+    position: absolute;
+    left: 510px; top: 925px;
+    color: white;
+}
+/* pagina integrantes*/
+.integ-color{
+    color: white;
+}
+
