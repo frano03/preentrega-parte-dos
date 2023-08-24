@@ -14,26 +14,26 @@ ul li{
     display: block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#intro-1{
+.intro-1{
      color: white;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     bottom: 490px; left: 610px;
 }
-#intro-text{
+.intro-text{
      color: white;
     position: absolute;
     bottom: 450px; left: 610px;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#intro-text-2{
+.intro-text-2{
      color: white;
     position: absolute;
     bottom: 430px; left: 610px;
     font-size: large;
 }
-#formtext{
+.formtext{
      color: white;
     position: absolute;
     left: 643px; top: 200px;
