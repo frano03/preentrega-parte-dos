@@ -324,4 +324,137 @@ ul li{
         width: 100%;
         height: auto;
     }
+    /* media queri 2da pagina */
+    #disco-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    #div-1 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-2 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-2 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-3 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-3 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-4 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-4 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-5 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-5 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-6 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-6 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-7 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-7 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-7 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-7 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-8{
+        width: 200px;
+        height: 200px;
+    }
+    #div-8 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-9 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-9 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-10 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-10 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #disco-11 {
+        width: 200px;
+        height: 200px;
+    }
+    #div-11 {
+        top: auto;
+        left: auto;
+        position: static;
+        padding: 10px;
+    }
 }
