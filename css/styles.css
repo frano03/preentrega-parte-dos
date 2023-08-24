@@ -127,50 +127,65 @@ ul li{
 /* Pagina Discografia */
 .disco-data{
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
 }
 #disco-1{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-2{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-3{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-4{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-5{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-6{
     width: 225px;
     height: 225px;
+    margin: 10px;
 }
 #disco-7{
     width: 225px;
 height: 225px;
+margin: 10px;
 }
 #disco-8{
     width: 225px;
 height: 225px;
+margin: 10px;
 }
 #disco-9{
     width: 225px;
 height: 225px;
+margin: 10px;
 }
 #disco-10{
     width: 225px;
 height: 225px;
+margin: 10px;
 }
 #disco-11{
     width: 225px;
 height: 225px;
+margin: 10px;
 }
 #div-1{
     display: block;
@@ -239,59 +254,64 @@ ul li{
     border-color: black;
 }
 #img-1{
-    width: 500px;
-    height: 500px;
+    
+    width: 400px;
+    height: 400px;
+} 
+#img-2{
+    width: 400px;
+height: 400px;
 }
-#inicio-texto{
+.txt{
+    color: white;
+    position: absolute;
+}
+.inicio-texto{
     position: absolute;
     left: 410px;
     top: 90px;
     color: white;
 }
-#texto-inicial{
+.texto-inicial{
     position: absolute;
     left: 410px;
     top: 115px;
     color: white;
 }
-#texto-medio{
+.texto-medio{
     position: absolute;
     left: 410px;
     top: 175px;
     color: white;
 }
-#texto-2000{
+.texto-2000{
     position: absolute;
     left: 410px; 
     top: 250px;
     color: white;
 }
-#texto-2000-2{
+.texto-2000-2{
     position: absolute;
     left: 410px; 
     top: 275px;
     color: white;
 }
-#img-2{
-    width: 400px;
-    height: 400px;
-}
-#texto-2010{
+.texto-2010{
     position: absolute;
     left: 510px; top: 500px;
     color: white;
 }
-#texto-2010-2{
+.texto-2010-2{
     position: absolute;
     left: 510px; top: 525px;
     color: white;
 }
-#intro-2020{
+.intro-2020{
     position: absolute;
     left: 510px; top: 900px;
     color: white;
 }
-#texto-2020-2{
+.texto-2020-2{
     position: absolute;
     left: 510px; top: 925px;
     color: white;
@@ -299,6 +319,13 @@ ul li{
 /* pagina integrantes*/
 .integ-color{
     color: white;
+}
+.integ-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    top:200px
 }
 
 /* media queri */
