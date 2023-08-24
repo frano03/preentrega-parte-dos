@@ -301,3 +301,27 @@ ul li{
     color: white;
 }
 
+/* media queri */
+@media screen and (max-width: 768px) {
+    ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .intro-1,.intro-text,.intro-text-2,.formtext,.Formulario {
+        position: static;
+        text-align: center;
+        margin: 10px auto;
+    }
+    #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
+    color: black;
+    position: static;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+    .imagen-1 {
+        width: 100%;
+        height: auto;
+    }
+}
