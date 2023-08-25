@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer proyecto</title>
+    <title>Mi primer proyecto</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- link del css -->
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <header>
-    <nav>
-        <!-- menu de navegacion -->
-        <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="paginas/discografia.html">Discografia</a></li>
-        <li><a href="paginas/historia.html">Historia</a></li>
-        <li><a href="paginas/integrantes.html">Integrantes</a></li>
-        <li><a href="paginas/tour-2023.html">Tour 2023</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link letra border" href="./paginas/discografia.html">DISCOGRAFIA</a>
+                  <a class="nav-link letra border" href="./paginas/historia.html">HISTORIA</a>
+                  <a class="nav-link letra border" href="./paginas/integrantes.html">INTEGRANTES</a>
+                  <a class="nav-link letra border" href="./paginas/tour-2023.html">TOUR 2023</a>
+                  <a class="nav-link letra border" href="../index.html">INDEX</a>
+                </div>
+              </div>
+            </div>
+          </nav>
 </header>
 <main>
     <h1>Skillet</h1>
@@ -75,5 +83,6 @@
     Redes: 
     <a href="https://www.instagram.com/skilletmusic/"><img src="multimedia/instagram.png" alt="instagram" id="ig"></a>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

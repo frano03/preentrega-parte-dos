@@ -4,7 +4,7 @@ body{
 }
 ul li{
     display: inline-block;
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 .imagen-1{
     width: 600px;
@@ -23,20 +23,20 @@ ul li{
 .intro-text{
      color: white;
     position: absolute;
-    bottom: 450px; left: 610px;
+    bottom: 440px; left: 610px;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .intro-text-2{
      color: white;
     position: absolute;
-    bottom: 430px; left: 610px;
+    bottom: 390px; left: 610px;
     font-size: large;
 }
 .formtext{
      color: white;
     position: absolute;
-    left: 643px; top: 200px;
+    left: 643px; top: 230px;
 }
 #ig{
     width: 25px;
@@ -54,7 +54,7 @@ ul li{
 #nombre{
      color: black;
     position: absolute;
-    left: 643px; top: 275px;
+    left: 643px; top: 278px;
 }
 #email{
      color: white;
@@ -64,7 +64,7 @@ ul li{
 #mail{
      color: black;
     position: absolute;
-    left: 643px; top: 320px;
+    left: 643px; top: 325px;
 }
 #password{
     color: white;
@@ -74,7 +74,7 @@ ul li{
 #contrasena{
     color: black;
     position: absolute;
-    left: 643px; top: 365px;
+    left: 643px; top: 370px;
 }
 #origen{
     color: white;
@@ -84,7 +84,7 @@ ul li{
 #pais{
     color: black;
     position: absolute;
-    left: 643px; top: 410px;
+    left: 643px; top: 415px;
 }
 #genero{
     color: white;
@@ -130,7 +130,7 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5px;
+    padding: 1px;
 }
 #disco-1{
     width: 225px;
@@ -256,7 +256,7 @@ ul li{
 #img-1{
     
     width: 400px;
-    height: 400px;
+    height: 500px;
 } 
 #img-2{
     width: 400px;
@@ -269,51 +269,51 @@ height: 400px;
 .inicio-texto{
     position: absolute;
     left: 410px;
-    top: 90px;
+    top: 110px;
     color: white;
 }
 .texto-inicial{
     position: absolute;
     left: 410px;
-    top: 115px;
+    top: 145px;
     color: white;
 }
 .texto-medio{
     position: absolute;
     left: 410px;
-    top: 175px;
+    top: 210px;
     color: white;
 }
 .texto-2000{
     position: absolute;
     left: 410px; 
-    top: 250px;
+    top: 295px;
     color: white;
 }
 .texto-2000-2{
     position: absolute;
     left: 410px; 
-    top: 275px;
+    top: 320px;
     color: white;
 }
 .texto-2010{
     position: absolute;
-    left: 510px; top: 500px;
+    left: 410px; top: 600px;
     color: white;
 }
 .texto-2010-2{
     position: absolute;
-    left: 510px; top: 525px;
+    left: 410px; top: 630px;
     color: white;
 }
 .intro-2020{
     position: absolute;
-    left: 510px; top: 900px;
+    left: 410px; top: 1000px;
     color: white;
 }
 .texto-2020-2{
     position: absolute;
-    left: 510px; top: 925px;
+    left: 410px; top: 1025px;
     color: white;
 }
 /* pagina integrantes*/
