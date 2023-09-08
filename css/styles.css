@@ -1,487 +1,346 @@
-body{
-    background-color: black;
-    background: linear-gradient(65deg, green, black)
-}
-ul li{
+/* comentario en sass y css */
+body {
+  background: rgba(0, 0, 0, 0.857); }
+  body ul li {
     display: inline-block;
-    margin-left: 50px;
-}
-.imagen-1{
-    width: 600px;
-    height: 450px;
-}
-.texto-inicial{
-    display: block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.intro-1{
-     color: white;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: absolute;
-    bottom: 490px; left: 610px;
-}
-.intro-text{
-     color: white;
-    position: absolute;
-    bottom: 440px; left: 610px;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.intro-text-2{
-     color: white;
-    position: absolute;
-    bottom: 390px; left: 610px;
-    font-size: large;
-}
-.formtext{
-     color: white;
-    position: absolute;
-    left: 643px; top: 230px;
-}
-#ig{
-    width: 25px;
-    height: 25px;
-}
-.Formulario{
-     color: white;
-    display: block;
-}
-#name{
-     color: white;
-    position: absolute;
-    left: 643px; top: 260px;
-}
-#nombre{
-     color: black;
-    position: absolute;
-    left: 643px; top: 278px;
-}
-#email{
-     color: white;
-    position: absolute;
-    left: 643px; top: 305px;
-}
-#mail{
-     color: black;
-    position: absolute;
-    left: 643px; top: 325px;
-}
-#password{
-    color: white;
-    position: absolute;
-    left: 643px; top: 350px;
-}
-#contrasena{
-    color: black;
-    position: absolute;
-    left: 643px; top: 370px;
-}
-#origen{
-    color: white;
-    position: absolute;
-    left: 643px; top: 395px;
-}
-#pais{
-    color: black;
-    position: absolute;
-    left: 643px; top: 415px;
-}
-#genero{
-    color: white;
-    position: absolute;
-    left: 643px; top: 440px;
-}
-#formulario-2-1{
-     color: white;
-    display: inline-block;
-    position: absolute;
-    left: 643px; top: 455px;
-}
-#formulario-2-2{
-     color: white;
-    display: inline-block;
-    position: absolute;
-    left: 743px; top: 455px;
-}
-#formulario-2-3{
-     color: white;
-    display: inline-block;
-    position: absolute;
-    left: 843px; top: 455px;
-}#formulario-2-4{
-     color: white;
-    display: inline-block;
-    position: absolute;
-    left: 943px; top: 455px;
-}
-#button-1{
-    color: black;
-    position: absolute;
-    left: 643px; top: 485px;
-}
-#button-2{
-    color: black;
-    position: absolute;
-    left: 643px; top: 525px;
-}
-/* Pagina Discografia */
-.disco-data{
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1px;
-}
-#disco-1{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-2{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-3{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-4{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-5{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-6{
-    width: 225px;
-    height: 225px;
-    margin: 10px;
-}
-#disco-7{
-    width: 225px;
-height: 225px;
-margin: 10px;
-}
-#disco-8{
-    width: 225px;
-height: 225px;
-margin: 10px;
-}
-#disco-9{
-    width: 225px;
-height: 225px;
-margin: 10px;
-}
-#disco-10{
-    width: 225px;
-height: 225px;
-margin: 10px;
-}
-#disco-11{
-    width: 225px;
-height: 225px;
-margin: 10px;
-}
-#div-1{
-    display: block;
-    padding-right: 1050px;
-}
-#div-2{
-    position: absolute;
-    top: 162px; left: 350px;
-    display: block;
-    padding-right: 1050px;
-}
-#div-3{
-    position: absolute;
-    top: 162px; left: 700px;
-    padding-right: 1000px;
-}
-#div-4{
-    position: absolute;
-    top: 162px; left: 1050px;
-    display: block;
-    padding-right: 1050px;
-}
-#div-5{
-    position: absolute;
-    top: 1000px; left: 0px;
-    padding-right: 1050px;
-}
-#div-6{
-    position: absolute;
-    top: 1000px; left: 350px;
-    padding-right: 1050px;
-}
-#div-7{
-    position: absolute;
-    top: 1000px; left: 700px;
-    padding-right: 1050px;
-}
-#div-8{
-    position: absolute;
-    top: 1000px; left: 1050px;
-    padding-right: 1050px;
-}
-#div-9{
-    position: absolute;
-    top: 1650px; left: 0px;
-    padding-right: 1050px;
-}
-#div-10{
-    position: absolute;
-    top: 1650px; left: 525px;
-    padding-right: 1050px;
-}
-#div-11{
-    position: absolute;
-    top: 1650px; left: 1050px;
-    padding-right: 1050px;
-}
-/* Pagina historia */
-h1{
-    color: white;
-}
-ul li{
-    display: inline-block;
-    margin-left: 50px; 
-    border-width: 10px;
-    border-color: black;
-}
-#img-1{
-    
-    width: 400px;
-    height: 500px;
-} 
-#img-2{
-    width: 400px;
-height: 400px;
-}
-.txt{
-    color: white;
-    position: absolute;
-}
-.inicio-texto{
-    position: absolute;
-    left: 410px;
-    top: 110px;
-    color: white;
-}
-.texto-inicial{
-    position: absolute;
-    left: 410px;
-    top: 145px;
-    color: white;
-}
-.texto-medio{
-    position: absolute;
-    left: 410px;
-    top: 210px;
-    color: white;
-}
-.texto-2000{
-    position: absolute;
-    left: 410px; 
-    top: 295px;
-    color: white;
-}
-.texto-2000-2{
-    position: absolute;
-    left: 410px; 
-    top: 320px;
-    color: white;
-}
-.texto-2010{
-    position: absolute;
-    left: 410px; top: 600px;
-    color: white;
-}
-.texto-2010-2{
-    position: absolute;
-    left: 410px; top: 630px;
-    color: white;
-}
-.intro-2020{
-    position: absolute;
-    left: 410px; top: 1000px;
-    color: white;
-}
-.texto-2020-2{
-    position: absolute;
-    left: 410px; top: 1025px;
-    color: white;
-}
-/* pagina integrantes*/
-.integ-color{
-    color: white;
-}
+    margin-left: 50px; }
+
+h1, p, h2, h3, form, footer {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+section .imagen-1 {
+  width: 600px;
+  height: 450px; }
+
+section .intro-1 {
+  position: absolute;
+  bottom: 490px;
+  left: 610px; }
+
+section .intro-text {
+  position: absolute;
+  bottom: 440px;
+  left: 610px; }
+
+section .intro-text-2 {
+  position: absolute;
+  bottom: 420px;
+  left: 610px; }
+
+form .txt-form {
+  position: absolute;
+  left: 643px;
+  top: 230px; }
+
+form .Formulario {
+  display: block; }
+
+form #name {
+  position: absolute;
+  left: 643px;
+  top: 260px; }
+
+form #nombre {
+  position: absolute;
+  left: 643px;
+  top: 278px; }
+
+form #email {
+  position: absolute;
+  left: 643px;
+  top: 305px; }
+
+form #mail {
+  position: absolute;
+  left: 643px;
+  top: 325px; }
+
+form #password {
+  position: absolute;
+  left: 643px;
+  top: 350px; }
+
+form #contrasena {
+  position: absolute;
+  left: 643px;
+  top: 370px; }
+
+form #origen {
+  position: absolute;
+  left: 643px;
+  top: 395px; }
+
+form #pais {
+  position: absolute;
+  left: 643px;
+  top: 415px; }
+
+form #genero {
+  position: absolute;
+  left: 643px;
+  top: 440px; }
+
+form #formulario-2-1 {
+  position: absolute;
+  left: 643px;
+  top: 455px;
+  display: inline-block; }
+
+form #formulario-2-2 {
+  position: absolute;
+  left: 743px;
+  top: 455px;
+  display: inline-block; }
+
+form #formulario-2-3 {
+  position: absolute;
+  left: 843px;
+  top: 455px;
+  display: inline-block; }
+
+form #formulario-2-4 {
+  position: absolute;
+  left: 943px;
+  top: 455px;
+  display: inline-block; }
+
+form #button-1 {
+  position: absolute;
+  left: 643px;
+  top: 485px; }
+
+form #button-2 {
+  position: absolute;
+  left: 643px;
+  top: 525px; }
+
+footer #ig {
+  width: 25px;
+  height: 25px; }
+
+/* pagina discografia */
+.disco-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1px; }
+
+#div-1, #div-2, #div-3, #div-4 {
+  top: 162px;
+  width: 300px;
+  position: absolute; }
+
+#disco-1, #disco-2, #disco-3, #disco-4, #disco-5, #disco-6, #disco-7, #disco-8, #disco-9, #disco-10, #disco-11 {
+  width: 225px;
+  height: 225px;
+  margin: 10px; }
+
+#div-2 {
+  left: 350px; }
+
+#div-3 {
+  left: 700px; }
+
+#div-4 {
+  left: 1050px; }
+
+#div-6 {
+  left: 350px; }
+
+#div-7 {
+  left: 700px; }
+
+#div-8 {
+  left: 1050px; }
+
+#div-10 {
+  left: 525px; }
+
+#div-11 {
+  left: 1050px; }
+
+#div-5, #div-6, #div-7, #div-8 {
+  width: 300px;
+  position: absolute;
+  top: 1000px; }
+
+#div-9, #div-10, #div-11 {
+  position: absolute;
+  top: 1650px;
+  width: 300px; }
+
+#img-1 {
+  width: 400px;
+  height: 500px; }
+
+#img-2 {
+  width: 400px;
+  height: 500px; }
+
+.inicio-texto {
+  position: absolute;
+  left: 410px;
+  top: 80px; }
+
+.texto-inicial {
+  position: absolute;
+  left: 410px;
+  top: 115px; }
+
+.texto-medio {
+  position: absolute;
+  left: 410px;
+  top: 210px; }
+
+.texto-2000 {
+  position: absolute;
+  left: 410px;
+  top: 180px; }
+
+.texto-2000-2 {
+  position: absolute;
+  left: 410px;
+  top: 320px; }
+
+.texto-2010 {
+  position: absolute;
+  left: 410px;
+  top: 580px; }
+
+.texto-2010-2 {
+  position: absolute;
+  left: 410px;
+  top: 610px; }
+
+.intro-2020 {
+  position: absolute;
+  left: 410px;
+  top: 990px; }
+
+.texto-2020-2 {
+  position: absolute;
+  left: 410px;
+  top: 1025px; }
+
 .integ-1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
-    top:200px
-}
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+  top: 500px; }
 
-/* media queri */
 @media screen and (max-width: 768px) {
-    ul li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-
-    .intro-1,.intro-text,.intro-text-2,.formtext,.Formulario {
-        position: static;
-        text-align: center;
-        margin: 10px auto;
-    }
-    #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
+  ul li {
+    display: inline-block;
+    margin: 0 10px; }
+  .intro-1, .intro-text, .intro-text-2, .formtext, .Formulario {
+    position: static;
+    text-align: center;
+    margin: 10px auto; }
+  #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
     color: black;
     position: static;
     text-align: center;
     margin: 10px auto;
-    display: block;
-}
-    .imagen-1 {
-        width: 100%;
-        height: auto;
-    }
-    /* media queri 2da pagina */
-    #disco-1 {
-        width: 200px;
-        height: 200px;
-    }
-
-    #div-1 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-2 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-2 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-3 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-3 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-4 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-4 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-5 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-5 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-6 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-6 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-7 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-7 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-7 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-7 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-8{
-        width: 200px;
-        height: 200px;
-    }
-    #div-8 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-9 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-9 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-10 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-10 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-11 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-11 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-}
+    display: block; }
+  .imagen-1 {
+    width: 100%;
+    height: auto; }
+  /* media queri 2da pagina */
+  #disco-1 {
+    width: 200px;
+    height: 200px; }
+  #div-1 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-2 {
+    width: 200px;
+    height: 200px; }
+  #div-2 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-3 {
+    width: 200px;
+    height: 200px; }
+  #div-3 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-4 {
+    width: 200px;
+    height: 200px; }
+  #div-4 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-5 {
+    width: 200px;
+    height: 200px; }
+  #div-5 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-6 {
+    width: 200px;
+    height: 200px; }
+  #div-6 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-7 {
+    width: 200px;
+    height: 200px; }
+  #div-7 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-7 {
+    width: 200px;
+    height: 200px; }
+  #div-7 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-8 {
+    width: 200px;
+    height: 200px; }
+  #div-8 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-9 {
+    width: 200px;
+    height: 200px; }
+  #div-9 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-10 {
+    width: 200px;
+    height: 200px; }
+  #div-10 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; }
+  #disco-11 {
+    width: 200px;
+    height: 200px; }
+  #div-11 {
+    top: auto;
+    left: auto;
+    position: static;
+    padding: 10px; } }

@@ -1,0 +1,26 @@
+//mixin
+
+//mixin con parametros
+
+@mixin posicion-textual ($position, $bottom, $left){
+    position: $position;
+    bottom: $bottom;
+    left: $left; 
+};
+
+@mixin posicion-textual-inverso ($position, $left, $top){
+    position: $position;
+    left: $left;
+    top: $top;
+};
+
+
+
+//mixin sin parametros
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
