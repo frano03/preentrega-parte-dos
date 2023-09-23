@@ -29,6 +29,10 @@ section{
     .imagen-1{
         width: 600px;
         height: 450px;
+        transition: 1s;
+    }
+    .imagen-1:hover{
+        filter:grayscale(55%)
     }
     .intro-1{
       @include posicion-textual(absolute, 490px, 610px);
@@ -121,6 +125,50 @@ height: 25px;
     height: 225px;
     margin: 10px;
 }
+#disco-1:hover{
+    rotate: 20deg;
+    transition: 1s;
+}
+#disco-2:hover{
+    transform: scale(2);
+    transition: 2s;
+}
+#disco-3:hover{
+    filter: blur(100px);
+    transition: 2s;
+}
+#disco-4:hover{
+    filter: opacity(0.5);
+    transition: 1s;
+}
+#disco-5:hover{
+    transform: skewX(30deg) skewY(30deg);
+    transition: 2s;
+}
+#disco-6:hover{
+    rotate: 180deg;
+    transition: 2s;
+}
+#disco-7:hover{
+    transform: scale(0.2);
+    transition: 2s;
+}
+#disco-8:hover{
+    transform: scaleY(0.6);
+    transition: 1s;
+}
+#disco-9:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+#disco-10:hover{
+    transform: skew(-20deg, 90deg);
+    transition: 1.5s;
+}
+#disco-11:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
 #div-2{
 left: 350px;
 }
@@ -161,11 +209,11 @@ left: 1050px;
     width: 400px;
     height: 500px;
     }
-        #img-2{
-        width: 400px;
-        height: 500px;
-        }
-.inicio-texto{
+    #img-2{
+    width: 400px;
+    height: 500px;
+    }
+.inicio-texto,.texto-inicial, .texto-medio, .texto-2000, .texto-2000-2, .texto-2010, .texto-2010-2, .intro-2020, .texto-2020-2{
         position: absolute;
         left: 410px;
         top: 80px;
@@ -211,168 +259,208 @@ left: 410px;
 top: 1025px
 }
 //pagina integrantes
-
-.integ-1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
-    top:500px
-}
-//media queris
-@media screen and (max-width: 768px) {
-    ul li {
-        display: inline-block;
-        margin: 0 10px;
+    body{
+        .grid-display{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+        }
+    }
+    /* pagina tour */
+    body{
+        img{
+            width: 600px;
+            height: 600px;
+        }
+        article{
+            
+        }
+            .form-tour{
+            text-align: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .form-tour:hover{
+                transform: scale(1.1);
+                transition: 1s;
+            }
+    }
+//media querys tablet
+@media screen and (min-width: 400px) and (max-width:700px){
+    /* INDEX */
+    body{
+        section{
+            .imagen-1{
+                width: 100%;
+                height: auto;
+                
+            }
+            .intro-1, .intro-text, .intro-text-2, .formtext, .Formulario {
+                position: static;
+                text-align: center;
+                margin: 10px auto; 
+            }
+        }
+        form{
+             .txt-form, #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
+                position: static;
+                text-align: center;
+                margin: 10px auto;
+                display: block;
+            }
+        }
+    }
+    /* pagina Discografia */
+    body{
+        #div-1, #div-2, #div-3, #div-4, #div-5, #div-6, #div-7, #div-8, #div-9, #div-10, #div-11{
+            position: static;
+            text-align: center;
+            margin: 10px auto;
+            display: block;
+        }
     }
 
-    .intro-1,.intro-text,.intro-text-2,.formtext,.Formulario {
-        position: static;
-        text-align: center;
-        margin: 10px auto;
+    /* pagina de la historia */
+    body{
+        main{
+            div{
+                #img-1, #img-2{
+                width: 100%;
+                height: auto;
+                }
+                article{
+                    .inicio-texto, .texto-inicial, .texto-medio, .texto-2000, .texto-2000-2, .texto-2010, .texto-2010-2, .texto-2010-2, .intro-2020, .texto-2020-2{
+                        position: static;
+                        text-align: center;
+                        margin: 10px auto;
+                        display: block;
+                    }
+                }
+            }
+        }
     }
-    #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
-    color: black;
-    position: static;
-    text-align: center;
-    margin: 10px auto;
-    display: block;
+
+    /* pagina Integrantes */
+    body{
+        .grid-display{
+            img{
+                width: auto;
+                height: auto;
+            }
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            gap: 1px;
+        }
+    }
+    /* pag tour */
+    body{
+        .tour-img{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 150px;
+        }
+    }
+
 }
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    body{
+        section{
+             .intro-1, .intro-text, .intro-text-2, .formtext, .Formulario {
+      position: static;
+      text-align: center;
+      margin: 10px auto; 
+        }
+        }
+        form{
+             .txt-form, #name, #nombre, #email, #mail, #password, #contrasena, #origen, #pais, #genero, #formulario-2-1, #formulario-2-2, #formulario-2-3, #formulario-2-4, #button-1, #button-2 {
+                position: static;
+                text-align: center;
+                margin: 10px auto;
+                display: block;
+            }
+        }
+    
+    }
     .imagen-1 {
-        width: 100%;
-        height: auto;
-    }
+      width: 100%;
+      height: auto; }
     /* media queri 2da pagina */
-    #disco-1 {
-        width: 200px;
-        height: 200px;
+   body{
+        #div-1, #div-2, #div-3, #div-4, #div-5, #div-6, #div-7, #div-8, #div-9, #div-10, #div-11{
+            left: auto;
+            top: auto;
+            position: static;
+            padding: 10px;
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+        }
     }
-
-    #div-1 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
+/* media querys 3er pagina */
+    body{
+        main{
+            div{
+                #img-2{
+                    width: 250px;
+                    height: 250px;
+                }
+                #img-1{
+                    width: 320px;
+                    height: 320px;
+                    position: relative;
+                    top: 120px;
+                }
+                .texto-inicial, .texto-medio{
+                    left: 250px;
+                }
+                .texto-2000, .texto-2000-2{
+                    left: 325px;
+                }
+                .texto-2010, .texto-2010-2{
+                    left: 10px;
+                    width: 380px;
+                }
+                .intro-2020, .texto-2020-2{
+                    left: 400px;
+                }
+                .texto-medio{
+                    top: 230px;
+                }
+                .texto-2000{
+                    top: 395px;
+                }
+                .texto-2000-2{
+                    top: 420px;
+                }
+                .texto-2010{
+                    top: 960px;
+                }
+                .texto-2010-2{
+                    top: 1000px;
+                }
+            }
+        }
     }
-
-    #disco-2 {
-        width: 200px;
-        height: 200px;
+/* Media querys 4ta pagina*/
+    body{
+        .grid-display{
+                img{
+                    width: auto;
+                    height: auto;
+                }
+            display: grid;
+            grid-template-columns:repeat(2, auto);
+        }
     }
-    #div-2 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-3 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-3 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-4 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-4 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-5 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-5 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-6 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-6 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-7 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-7 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-7 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-7 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-8{
-        width: 200px;
-        height: 200px;
-    }
-    #div-8 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-9 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-9 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-10 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-10 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
-    }
-
-    #disco-11 {
-        width: 200px;
-        height: 200px;
-    }
-    #div-11 {
-        top: auto;
-        left: auto;
-        position: static;
-        padding: 10px;
+    /* Media querys 5ta pagina */
+    body{
+        .tour-img{
+            width: 100%;
+            height: auto;
+        }
     }
 }
+

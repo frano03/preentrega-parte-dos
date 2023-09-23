@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour 2023</title>
+    <meta name="description" content="¡No te pierdas el tour de Skillet este año! Obtén información sobre las fechas, los lugares, y cómo conseguir tus boletos. Únete a la emoción en vivo.">
+    <meta name="keywords" content="tour, banda, 2023, fecha, entradas">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- link del css -->
     <link rel="stylesheet" href="../css/styles.css">
@@ -26,13 +28,13 @@
         </div>
       </nav>
     </header>
-        <img src="../multimedia/tour-1.jpg" alt="tour-1">
-        <img src="../multimedia/tour-2.jpeg" alt="tour-2">
+        <img src="../multimedia/tour-1.jpg" class="tour-img" alt="tour-1">
+        <img src="../multimedia/tour-2.jpeg" class="tour-img" alt="tour-2">
         <article>
             <h2>
                 Informacion del Tour "Day of Destiny"
             </h2>
-            <p>
+            <p class="data-tour">
                 Day of Destiny es un tour dado por la banda por Francia, Reino Unido, y ciudades masivas como Copenhague, Berlin, Milan, Praga, entre otras, desde Abril hasta Mayo.
             </p>
         </article>
@@ -40,23 +42,23 @@
             <h2>
                 Rock Resurrection Tour
             </h2>
-            <p>
+            <p class="data-tour-2">
                 En este tour la banda va a compartir escenario con otras del mismo genero como lo son theory of a deadman y Saint Asonia. Se va a dar a lo largo de todo Estados Unidos. La preventa abrio el 14 de Junio y las fechas estan empezando a agotarse, este gran tour comienza el 20 de Octubre en la gran ciudad de Los Angeles
             </p>
         </article>
-        <form>
-            <h3>Obtene tus Entradas!!</h3>
-            <label for="mail">Ingresa tu Mail aca</label>
-            <input type="mail" name="mail" required>
-            <label for="name">Ingresa tu Nombre</label>
-            <input type="text" name="name" required>
-            <label for="telefono">Ingrese nro de telefono</label>
-            <input type="number" name="telefono" required>
-            <label for="fecha">Fecha a asistir</label>
-            <input type="date" name="fecha" required>
-            <label for="Boton"></label>
-            <input type="submit" name="Button" value="Quiero mi Entrada" >
-        </form>
+            <form class="form-tour">
+                <h3>Obtene tus Entradas!!</h3>
+                <label for="mail" class="tour-mail">Ingresa tu Mail aca</label>
+                <input type="mail"class="tour-mail" name="mail" required>
+                <label for="name" class="tour-name">Ingresa tu Nombre</label>
+                <input type="text"class="tour-name" name="name" required>
+                <label for="telefono" class="phone-tour">Ingrese nro de telefono</label>
+                <input type="number" class="phone-tour" name="telefono" required>
+                <label for="fecha" class="date-tour">Fecha a asistir</label>
+                <input type="date" class="date-tour"name="fecha" required>
+                <label for="Boton"></label>
+                <input type="submit" name="Button" value="Quiero mi Entrada" >
+            </form>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
